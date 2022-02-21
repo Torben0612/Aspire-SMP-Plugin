@@ -1,4 +1,4 @@
-package thirtyvirus.template.events.chat;
+package torben.smp.events.chat;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -25,7 +25,7 @@ public class TabComplete implements TabCompleter {
 
             // no arguments
             if (args.length == 1){
-                if (player.hasPermission("template.user")) { arguments.addAll(Arrays.asList("help", "info", "tutorial")); }
+                if (player.hasPermission("template.user")) { arguments.addAll(Arrays.asList("help", "info", "tutorial", "infobook", "rulebook")); }
                 if (player.hasPermission("template.admin")) { arguments.addAll(Collections.singletonList("reload")); }
 
                 Iterator<String> iter = arguments.iterator(); while (iter.hasNext()) { String str = iter.next().toLowerCase(); if (!str.contains(args[0].toLowerCase())) iter.remove(); }

@@ -1,4 +1,4 @@
-package thirtyvirus.multiversion;
+package torben.multiversion;
 
 import org.bukkit.Bukkit;
 

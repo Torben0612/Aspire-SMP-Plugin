@@ -1,12 +1,11 @@
-package thirtyvirus.template.helpers;
+package torben.smp.helpers;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BookMeta;
-import thirtyvirus.multiversion.API;
-import thirtyvirus.multiversion.XMaterial;
-import thirtyvirus.template.TemplatePlugin;
+import torben.multiversion.API;
+import torben.multiversion.XMaterial;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,8 +16,8 @@ public class MenuUtils {
         ItemStack book = new ItemStack(XMaterial.WRITTEN_BOOK.parseMaterial());
         BookMeta meta = (BookMeta) book.getItemMeta();
 
-        meta.setAuthor("ThirtyVirus");
-        meta.setTitle("Welcome to TemplatePlugin!");
+        meta.setAuthor("Server");
+        meta.setTitle("Test Book!");
 
         List<String> pages = new ArrayList<String>();
 

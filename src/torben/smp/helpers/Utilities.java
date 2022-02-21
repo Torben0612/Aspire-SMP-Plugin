@@ -1,4 +1,4 @@
-package thirtyvirus.template.helpers;
+package torben.smp.helpers;
 
 import com.google.common.io.ByteStreams;
 import org.bukkit.ChatColor;
@@ -10,10 +10,10 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.Plugin;
-import thirtyvirus.multiversion.Sound;
-import thirtyvirus.multiversion.Version;
-import thirtyvirus.multiversion.XMaterial;
-import thirtyvirus.template.TemplatePlugin;
+import torben.multiversion.Sound;
+import torben.multiversion.Version;
+import torben.multiversion.XMaterial;
+import torben.smp.Main;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -105,7 +105,7 @@ public final class Utilities {
     // warns player of something in plugin
     public static void warnPlayer(CommandSender sender, List<String> messages) {
         if (sender instanceof Player) { Player player = (Player) sender; playSound(ActionSound.ERROR, player); }
-        for (String message : messages) sender.sendMessage(TemplatePlugin.prefix + ChatColor.RESET + ChatColor.RED + message);
+        for (String message : messages) sender.sendMessage(Main.prefix + ChatColor.RESET + ChatColor.RED + message);
     }
     public static void warnPlayer(CommandSender sender, String message) {
         warnPlayer(sender, Collections.singletonList(message));
@@ -113,7 +113,7 @@ public final class Utilities {
 
     // informs player of something in plugin
     public static void informPlayer(CommandSender sender, List<String> messages) {
-        for (String message : messages) sender.sendMessage(TemplatePlugin.prefix + ChatColor.RESET + ChatColor.GRAY + message);
+        for (String message : messages) sender.sendMessage(Main.prefix + ChatColor.RESET + ChatColor.GRAY + message);
     }
     public static void informPlayer(CommandSender sender, String message) {
         informPlayer(sender, Collections.singletonList(message));

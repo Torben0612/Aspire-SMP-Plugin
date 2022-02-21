@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ce5c15-c524-4ca8-b606-87a703923e5f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SMP_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spigot_1_16_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/torben/smp/commands/InfoBookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/torben/smp/commands/RuleBookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/torben/smp/events/chat/Join.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Plugin_Template_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_8_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/craftbukkit_suite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/TemplatePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/TemplatePlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/events/block/BlockClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/events/block/BlockClick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/events/chat/TabComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/events/chat/TabComplete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/events/inventory/InventoryClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/events/inventory/InventoryClick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/helpers/MenuUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/helpers/MenuUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/helpers/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/helpers/Utilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugin_Template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin_Template.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language.yml" beforeDir="false" afterPath="$PROJECT_DIR$/language.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/multiversion/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/multiversion/API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/multiversion/BookUtil_1_14_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/multiversion/BookUtil_1_14_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/multiversion/BookUtil_1_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/multiversion/BookUtil_1_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/multiversion/BookUtil_1_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/multiversion/BookUtil_1_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/multiversion/ReflectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/multiversion/ReflectionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/multiversion/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/multiversion/Sound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/multiversion/Version.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/multiversion/Version.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/multiversion/XMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/multiversion/XMaterial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/TemplatePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/smp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/smp/commands/MainPluginCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/events/block/BlockClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/smp/events/block/BlockClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/events/chat/TabComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/smp/events/chat/TabComplete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/events/inventory/InventoryClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/smp/events/inventory/InventoryClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/helpers/ActionSound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/smp/helpers/ActionSound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/helpers/MenuUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/smp/helpers/MenuUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/helpers/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/torben/smp/helpers/Utilities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +65,9 @@
       <GitPushTagMode />
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -50,25 +80,35 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.9.4.jar!/" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4032258" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ThirtyVirus\Documents\My Programming\Spigot\plugins\Simple_Sorting\src\thirtyvirus\ss\helpers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ThirtyVirus\Documents\My Programming\Spigot\plugins\Plugin_Template\src\thirtyvirus\multiversion" />
       <recent name="C:\Users\ThirtyVirus\Documents\My Programming\Spigot\plugins\Simple_Sorting\src" />
       <recent name="C:\Users\ThirtyVirus\Documents\My Programming\Spigot\plugins\Simple_Sorting" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ThirtyVirus\Documents\My Programming\Spigot\plugins\Simple_Sorting\src\thirtyvirus\ss\helpers" />
     </key>
   </component>
   <component name="RunManager">
@@ -120,49 +160,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="Simple_Sorting" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,6 +191,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -196,6 +202,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562942386473</updated>
+      <workItem from="1645228128961" duration="3930000" />
+      <workItem from="1645276692563" duration="3115000" />
+      <workItem from="1645284205595" duration="2469000" />
+      <workItem from="1645313080733" duration="516000" />
+      <workItem from="1645363484851" duration="435000" />
+      <workItem from="1645364364877" duration="158000" />
+      <workItem from="1645372949166" duration="170000" />
+      <workItem from="1645381224100" duration="1171000" />
+      <workItem from="1645382823656" duration="318000" />
+      <workItem from="1645397410105" duration="1045000" />
+      <workItem from="1645450228259" duration="1186000" />
     </task>
     <task id="LOCAL-00001" summary="Almost finished entire V1 of plugin, still need multisort and more sorting options.">
       <created>1563303610424</created>
@@ -258,6 +275,9 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Almost finished entire V1 of plugin, still need multisort and more sorting options." />
     <MESSAGE value="all features implemented except double chest support in 1.8. Need to find way to test if they are equal." />
@@ -267,12 +287,6 @@
     <MESSAGE value="updated links again" />
     <MESSAGE value="updated to 1.15" />
     <option name="LAST_COMMIT_MESSAGE" value="updated to 1.15" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="760" y="274" key="SettingsEditor" timestamp="1617065752067">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1617065752067" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

@@ -1,13 +1,13 @@
-package thirtyvirus.template.commands;
+package torben.smp.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import thirtyvirus.template.TemplatePlugin;
-import thirtyvirus.template.helpers.MenuUtils;
-import thirtyvirus.template.helpers.Utilities;
+import torben.smp.Main;
+import torben.smp.helpers.MenuUtils;
+import torben.smp.helpers.Utilities;
 
 public class MainPluginCommand implements CommandExecutor{
 
@@ -16,7 +16,7 @@ public class MainPluginCommand implements CommandExecutor{
 
         // verify that the user has proper permissions
         if (!sender.hasPermission("template.user")) {
-            Utilities.warnPlayer(sender, TemplatePlugin.getPhrase("no-permissions-message"));
+            Utilities.warnPlayer(sender, Main.getPhrase("no-permissions-message"));
             return true;
         }
 
@@ -31,31 +31,31 @@ public class MainPluginCommand implements CommandExecutor{
                     break;
                 case "tutorial":
                     if (sender instanceof Player) MenuUtils.tutorialMenu((Player) sender);
-                    else Utilities.warnPlayer(sender, TemplatePlugin.getPhrase("no-console-message"));
+                    else Utilities.warnPlayer(sender, Main.getPhrase("no-console-message"));
                     break;
 
                 // put plugin specific commands here
 
                 case "reload":
                     if (sender.hasPermission("template.admin")) reload(sender);
-                    else Utilities.warnPlayer(sender, TemplatePlugin.getPhrase("no-permissions-message"));
+                    else Utilities.warnPlayer(sender, Main.getPhrase("no-permissions-message"));
                     break;
                 default:
-                    Utilities.warnPlayer(sender, TemplatePlugin.getPhrase("not-a-command-message"));
+                    Utilities.warnPlayer(sender, Main.getPhrase("not-a-command-message"));
                     help(sender);
                     break;
             }
 
         } catch(Exception e) {
-            Utilities.warnPlayer(sender, TemplatePlugin.getPhrase("formatting-error-message"));
+            Utilities.warnPlayer(sender, Main.getPhrase("formatting-error-message"));
         }
 
         return true;
     }
 
     private void info(CommandSender sender) {
-        sender.sendMessage(TemplatePlugin.prefix + ChatColor.GRAY + "Plugin Info");
-        sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.GREEN + "Version " + TemplatePlugin.getInstance().getVersion() + " - By ThirtyVirus");
+        sender.sendMessage(Main.prefix + ChatColor.GRAY + "Plugin Info");
+        sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.GREEN + "Version " + Main.getInstance().getVersion() + " - By ThirtyVirus");
         sender.sendMessage("");
         sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.GREEN + "~The best plugin template ever!");
         sender.sendMessage("");
@@ -66,7 +66,7 @@ public class MainPluginCommand implements CommandExecutor{
     }
 
     private void help(CommandSender sender) {
-        sender.sendMessage(TemplatePlugin.prefix + ChatColor.GRAY + "Commands");
+        sender.sendMessage(Main.prefix + ChatColor.GRAY + "Commands");
         sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.GRAY + "/template help");
         sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.GRAY + "/template info");
         sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.GRAY + "/template tutorial");
@@ -75,9 +75,9 @@ public class MainPluginCommand implements CommandExecutor{
     }
 
     private void reload(CommandSender sender) {
-        TemplatePlugin.getInstance().reloadConfig();
-        TemplatePlugin.getInstance().loadConfiguration();
-        TemplatePlugin.getInstance().loadLangFile();
+        Main.getInstance().reloadConfig();
+        Main.getInstance().loadConfiguration();
+        Main.getInstance().loadLangFile();
 
         Utilities.informPlayer(sender, "configuration, values, and language settings reloaded");
     }

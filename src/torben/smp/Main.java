@@ -1,23 +1,25 @@
-package thirtyvirus.template;
+package torben.smp;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
-import thirtyvirus.template.commands.MainPluginCommand;
-import thirtyvirus.template.events.block.BlockClick;
-import thirtyvirus.template.events.chat.TabComplete;
-import thirtyvirus.template.events.inventory.InventoryClick;
-import thirtyvirus.template.helpers.Utilities;
+import torben.smp.commands.InfoBookCommand;
+import torben.smp.commands.MainPluginCommand;
+import torben.smp.commands.RuleBookCommand;
+import torben.smp.events.block.BlockClick;
+import torben.smp.events.chat.TabComplete;
+import torben.smp.events.inventory.InventoryClick;
+import torben.smp.helpers.Utilities;
 
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TemplatePlugin extends JavaPlugin {
+public class Main extends JavaPlugin {
 
-    private static TemplatePlugin instance;
+    private static Main instance;
 
     // chat messages
     private static Map<String, String> phrases = new HashMap<>();
@@ -54,6 +56,11 @@ public class TemplatePlugin extends JavaPlugin {
         //        }
         //    }, 20 * 60 * 60, 20 * 60 * 60);
         //}
+
+        //book command
+        getCommand("infobook").setExecutor(new InfoBookCommand());
+        getCommand("rulebook").setExecutor(new RuleBookCommand());
+
     }
 
     public void onDisable() {
@@ -119,7 +126,7 @@ public class TemplatePlugin extends JavaPlugin {
     public static String getPhrase(String key) {
         return phrases.get(key);
     }
-    public static TemplatePlugin getInstance() { return instance; }
+    public static Main getInstance() { return instance; }
     public String getVersion() {
         return getDescription().getVersion();
     }

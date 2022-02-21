@@ -1,12 +1,11 @@
-package thirtyvirus.multiversion;
+package torben.multiversion;
 
+import java.lang.reflect.Method;
+import java.util.List;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BookMeta;
-
-import java.lang.reflect.Method;
-import java.util.List;
 
 /**
 * Create a "Virtual" book gui that doesn't require the user to have a book in their hand.
@@ -15,7 +14,7 @@ import java.util.List;
 * @author Jed
 *
 */
-public class BookUtil_1_14_4 {
+public class BookUtil_1_9 {
    private static boolean initialised = false;
    private static Method getHandle;
    private static Method openBook;
@@ -23,7 +22,7 @@ public class BookUtil_1_14_4 {
    static {
       try {
          getHandle = ReflectionUtils.getMethod("CraftPlayer", ReflectionUtils.PackageType.CRAFTBUKKIT_ENTITY, "getHandle");
-         openBook = ReflectionUtils.getMethod("EntityPlayer", ReflectionUtils.PackageType.MINECRAFT_SERVER, "openBook", ReflectionUtils.PackageType.MINECRAFT_SERVER.getClass("ItemStack"), ReflectionUtils.PackageType.MINECRAFT_SERVER.getClass("EnumHand"));
+         openBook = ReflectionUtils.getMethod("EntityPlayer", ReflectionUtils.PackageType.MINECRAFT_SERVER, "a", ReflectionUtils.PackageType.MINECRAFT_SERVER.getClass("ItemStack"), ReflectionUtils.PackageType.MINECRAFT_SERVER.getClass("EnumHand"));
          initialised = true;
       } catch (ReflectiveOperationException e) {
          e.printStackTrace();

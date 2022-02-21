@@ -1,12 +1,12 @@
-package thirtyvirus.template.events.inventory;
+package torben.smp.events.inventory;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
-import thirtyvirus.template.helpers.Utilities;
+import torben.smp.helpers.Utilities;
 
-import static thirtyvirus.template.helpers.ActionSound.CLICK;
+import static torben.smp.helpers.ActionSound.CLICK;
 
 public class InventoryClick implements Listener {
 

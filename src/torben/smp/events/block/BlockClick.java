@@ -1,10 +1,10 @@
-package thirtyvirus.template.events.block;
+package torben.smp.events.block;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerInteractEvent;
-import thirtyvirus.template.helpers.ActionSound;
-import thirtyvirus.template.helpers.Utilities;
+import torben.smp.helpers.ActionSound;
+import torben.smp.helpers.Utilities;
 
 public class BlockClick implements Listener {
 

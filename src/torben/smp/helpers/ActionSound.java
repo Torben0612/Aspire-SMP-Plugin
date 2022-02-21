@@ -1,4 +1,4 @@
-package thirtyvirus.template.helpers;
+package torben.smp.helpers;
 
 public enum ActionSound {
     OPEN,

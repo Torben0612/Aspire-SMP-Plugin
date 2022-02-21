@@ -1,4 +1,4 @@
-package thirtyvirus.multiversion;
+package torben.multiversion;
 
 import java.lang.reflect.Method;
 import java.util.List;

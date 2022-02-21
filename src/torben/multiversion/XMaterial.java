@@ -1,4 +1,4 @@
-package thirtyvirus.multiversion;
+package torben.multiversion;
 /**
  * The MIT License (MIT)
  * <p>

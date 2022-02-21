@@ -15,3 +15,9 @@ no-permissions-message: You do not have proper permissions!
 not-a-command-message: That is not a command!
 formatting-error-message: Formatting error, check your command syntax!
 no-console-message: You can only execute this command in-game!
+
+give-info-book-message: gennerated info book!
+give-rule-book-message: gennerated rule book!
+
+player-first-join-message: Yo we gat new player!
+player-joined-before-message: Yo a returner joind agin!

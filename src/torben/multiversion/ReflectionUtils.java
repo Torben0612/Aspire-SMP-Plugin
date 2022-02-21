@@ -1,4 +1,4 @@
-package thirtyvirus.multiversion;
+package torben.multiversion;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
